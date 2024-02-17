@@ -88,6 +88,7 @@ void loop() {
 [float]
 === Notes and Warnings
 Custom layouts can be created by copying and modifying an existing layout. See the instructions in the Keyboard library's KeyboardLayout.h file.
+You may need to add a short delay (at least 500 milliseconds) in your code after running "Keyboad.begin();" depending on the board you are using. If you find that the keyboard functionality is not working or cutting off parts of your text, consider adding "delay(500);" after "Keyboard.begin()"
 
 --
 // HOW TO USE SECTION ENDS
